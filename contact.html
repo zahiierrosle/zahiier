@@ -1,0 +1,154 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<link rel="stylesheet" href="styles.css">
+<body background="images/bg6.jpg">
+    <div style="text-align:center">
+        <h1><p style= "font-family: Comic Sans; font-size: 60px; color: rgb(169, 185, 213); ">Contact Us</p></h1>
+    
+        <html>
+          <head>
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <style>
+          </style>
+          </head>
+          
+          <link rel= "stylesheet" href = "style.css">
+<body>
+
+  <div id="navbar">
+    <img src="image/logo-removebg-preview.png" style="width: 95px ;height:90px;">
+    <div id="navbar-right">
+      <a href="index.html">Home</a>
+      <a href="sale.html">Sale</a>
+      <a href="about.html">About</a>
+      <a href="collection.html">Collection</a>
+      <a href="categories.html">Categories</a>
+      <a href="review.html">Review</a>
+      <a class="active" href="contact.html">Contact Us</a>
+      <a href="faq.html">FAQ</a>
+    </div>
+  </div>
+
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Order Form</h2>
+
+<div class="container">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="full name">Full name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="phone number">Phone number</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Your number..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="order">Order</label>
+    </div>
+    <div class="col-75">
+      <select id="order" name="order">
+        <option value="original chocolate">Original chocolate</option>
+        <option value="white chocolate">White chocolate</option>
+        <option value="green tea">Green tea</option>
+        <option value="strawberry">Strawberry</option>
+        <option value="cookies">Cookies</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="order description and amount">Order description and amount</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <input type="submit" value="Submit">
+  </div>
+  </form>
+</div>
+
+</body>
+</html>
